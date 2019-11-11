@@ -35,10 +35,10 @@ exports.run = (client, message, args) =>{
         .setAuthor(`FantasyBot`, client.user.displayAvatarURL)
         .addField(`Version`,`1.0`, true)
         .addField(`Library`,`Discord.js` , true)
-        .addField(`Creator`,`Volt#9462`, true)
+        .addField(`Creator`,`Volt#9462&PIKACHUᶠᵃⁿᵗᵃˢʸ ˡᵃᵇˢ#5686`, true)
         .addField(`Servers`, `${client.guilds.size}`, true)
         .addField(`Users`, `${client.users.size}`, true)
-        .addField(`Invite`, `[Invite FantasyBot](wait)`, true)
+        .addField(`Invite`, `[Invite FantasyBot](https://discordapp.com/oauth2/authorize?client_id=605328816402857985&scope=bot&permissions=2146958847)`, true)
         .setFooter(`Uptime: ${uptime}`);
 
     message.channel.send(serverembed);    
