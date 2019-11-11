@@ -33,7 +33,7 @@ exports.run = (client, message, args) =>{
     let serverembed = new Discord.RichEmbed()
         .setColor("#9400D3")
         .setAuthor(`FantasyBot`, client.user.displayAvatarURL)
-        .addField(`Version`,`1.0`, true)
+        .addField(`Version`,`1.5`, true)
         .addField(`Library`,`Discord.js` , true)
         .addField(`Creator`,`Volt#9462&PIKACHUᶠᵃⁿᵗᵃˢʸ ˡᵃᵇˢ#5686`, true)
         .addField(`Servers`, `${client.guilds.size}`, true)
